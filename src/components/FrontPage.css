@@ -1,0 +1,36 @@
+.title {
+    color: #333;
+    padding: 20px 0 0px 0;
+}
+
+.moviesContainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.card {
+    cursor: pointer;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 10px 0 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 11%), 0 6px 20px 0 rgb(0 0 0 / 14%);
+}
+
+.movieLanguage {
+    color: #777;
+    font-weight: 700;
+}
+
+.moviesContainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.movieTitle {
+    color: #4b4b4b;
+    font-weight: 700;
+    font-size: 19px;
+}
