@@ -9,7 +9,7 @@ const MainPage = () => {
  
   return (
     <div className="content">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className='moviesContainer'>
           <h1 className='title'>Recommended Movies</h1>
           <Grid container spacing={2}>
