@@ -1,14 +1,28 @@
-import React, { useContext } from 'react'
+//import { useContext } from 'react'
 import '../movieDetails/details.css'
-import MoviesContext from '../context/MoviesContext'
+import BookTicketsButton from './BookTicketsButton'
+import CustomizeRowsButton from './CustomizeRowsButton'
+//import MoviesContext from '../context/MoviesContext'
 
-const details = () => {
-    const {movies} = useContext(MoviesContext)
+const Details = () => {
+   // const {movies} = useContext(MoviesContext)
+
+  //  const seatNumber = movies.seats
+    
   return (
-    <div>
-        <h1>{movies.name}</h1>
+    <div className= "seatsContainer">
+        <h1>Movie Name - Movie Language</h1>
+        <div className='language'>
+          Ticket Cost: movie.ticketCost
+        </div>
+        <div className="buttonContainer">
+          <div className="buttonHolder">
+            <BookTicketsButton />
+            <CustomizeRowsButton />
+          </div>
+        </div>
     </div>
   )
 }
 
-export default details
+export default Details
