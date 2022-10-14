@@ -2,10 +2,11 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { movies } from '../data/movies'
-import '../movieDetails/details.css'
-import BookTicketsButton from './BookTicketsButton'
-import CustomizeRowsButton from './CustomizeRowsButton'
+import './details.css'
+import { movies } from '../../data/movies'
+import BookTicketsButton from '../BookTicketsButton'
+import CustomizeRowsButton from '../CustomizeRowsButton'
+import ModalContainer from '../../finalPayment/ModalContainer/ModalContainer'
 
 const Details = () => {
     const { id } = useParams();
@@ -29,6 +30,7 @@ const Details = () => {
           <div className="buttonHolder">
             <BookTicketsButton />
             <CustomizeRowsButton />
+            {/* <ModalContainer /> */}
           </div>
         </div>
     </div>

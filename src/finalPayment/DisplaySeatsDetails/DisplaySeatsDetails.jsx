@@ -1,13 +1,14 @@
 import React from 'react'
+import './DisplaySeatsDetails.css'
 
 const DisplaySeatsDetails = () => {
-  //  let costOfTicket = selectedSeats.length*(movie.ticketCost || 0)
+  //  let costOfTicket = seatSelected.length*(movie.ticketCost || 0)
 
 
   return (
     <div className='seatDetailContainer'>
         <div className="seatdetails">
-            <p>selectedSeats.join(,) && selectedSeats.length + Tickets</p>
+            <p>seatSelected.join(,) && seatSelected.length + Tickets</p>
         </div>
         <div className="seatCost">
           {/* Rs.{totalCost} */}

@@ -1,0 +1,10 @@
+.paymentButton {
+    background: #f84464 !important;
+    margin-top: 30px !important;
+    margin-bottom: 15px !important;
+}
+
+.paymentButton:disabled {
+    background: #ff8a9f !important;
+    color: #fff;
+}

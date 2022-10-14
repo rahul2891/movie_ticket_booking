@@ -1,8 +1,9 @@
 import React from 'react'
+import './DisplayBookingCharges.css'
 
 const DisplayBookingCharges = () => {
    // let bookingChargeCost = 20;
-   // let bookingCharge = selectedSeats.length * bookingChargeCost;
+   // let bookingCharge = seatSelected.length * bookingChargeCost;
 
   return (
     <div className='seatDetailContainer'>

@@ -26,17 +26,17 @@ const DisplaySeats = () => {
     // 0 - Not booked || 1 - Booked || 2 - Selected || 3 - Blocked
    
   const nameForSeats = (seatValue) => {
-    let block;
+    let colorChangeClass;
     if(seatValue === 0){
-      block = styles.seatNotBooked;
+      colorChangeClass = styles.seatNotBooked;
     } else if(seatValue === 1){
-      block = styles.seatBooked;
+      colorChangeClass = styles.seatBooked;
     } else if(seatValue === 2){
-      block = styles.seatSelected;
+      colorChangeClass = styles.seatSelected;
     } else {
-      block = styles.seatBlock;
+      colorChangeClass = styles.seatBlock;
     }
-    return `${styles.seats} ${block}`
+    return `${styles.seats} ${colorChangeClass}`
   }
 
 

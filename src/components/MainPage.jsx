@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { Grid } from '@mui/material';
-import "../components/FrontPage.css"
+import "../components/MainPage.css"
 import RenderMovieList from './RenderMovieList';
 
 

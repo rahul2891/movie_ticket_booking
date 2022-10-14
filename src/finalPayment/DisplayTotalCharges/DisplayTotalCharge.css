@@ -1,0 +1,9 @@
+.seatDetailsContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.seatDetails {
+    flex: 1;
+    text-align: start;
+}
