@@ -6,12 +6,8 @@ import { movies } from '../data/movies'
 import '../movieDetails/details.css'
 import BookTicketsButton from './BookTicketsButton'
 import CustomizeRowsButton from './CustomizeRowsButton'
-//import MoviesContext from '../context/MoviesContext'
 
 const Details = () => {
-   // const {movies} = useContext(MoviesContext)
-
-  //  const seatNumber = movies.seats
     const { id } = useParams();
     const [movieData, setMoviedata] = useState({});
     const fetchDetails = () => {
