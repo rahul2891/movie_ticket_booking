@@ -1,0 +1,9 @@
+.payButton{
+    background: #f84464 !important;
+    color: white;
+}
+
+.payButtonContainer{
+    position: sticky;
+    bottom: 10px;
+}

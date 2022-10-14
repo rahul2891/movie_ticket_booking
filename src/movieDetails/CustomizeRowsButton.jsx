@@ -1,9 +1,11 @@
 import React from 'react'
+import { Button } from '@mui/material';
+
 
 const CustomizeRowsButton = () => {
   return (
     <div className='paymentButtonContainer'>
-        <button className='paymentButton'>Customize Row</button>
+        <Button style={{color: "white"}} className='paymentButton'>Customize Row</Button>
     </div>
   )
 }

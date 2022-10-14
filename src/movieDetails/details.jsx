@@ -18,6 +18,7 @@ const Details = () => {
     useEffect(() => {   
       fetchDetails();   
     }, [])
+  
   return (
     <div className= "seatsContainer">
         <h1>{movieData?.name} - {movieData?.language}</h1>
