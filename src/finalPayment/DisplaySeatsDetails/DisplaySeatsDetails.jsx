@@ -1,16 +1,9 @@
-import { useParams, useSearchParams } from 'react-router-dom';
-import { movies } from '../../data/movies';
 import './DisplaySeatsDetails.css'
 
-const DisplaySeatsDetails = () => {
+const DisplaySeatsDetails = ({searchParams, selectedSeatArr, costOfTicket}) => {
   
-  let [searchParams, setSearchParams] = useSearchParams();
-  let selectedSeatArr = searchParams.get("data").split(",");
-  const { id } = useParams();
-  const movie = movies.find(mov => mov.id === parseInt(id));
-  let costOfTicket = selectedSeatArr.length*(movie.ticketCost || 0)
-
-
+console.log(costOfTicket)
+ 
   return (
     <div className='seatDetailContainer'>
         <div className="seatDetails">

@@ -1,13 +1,7 @@
 import React from 'react'
-import { useSearchParams } from 'react-router-dom';
 import './DisplayBookingCharges.css'
 
-const DisplayBookingCharges = () => {
-  let [searchParams, setSearchParams] = useSearchParams();
-  let selectedSeatArr = searchParams.get("data").split(",");
-  console.log(selectedSeatArr.length)
-   let bookingChargeCost = 20;
-  let bookingCharge = selectedSeatArr.length * bookingChargeCost;
+const DisplayBookingCharges = ({bookingCharge}) => {
 
   return (
     <div className='seatDetailContainer'>
