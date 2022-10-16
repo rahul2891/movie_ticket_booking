@@ -3,7 +3,6 @@ import { movies } from '../../data/movies';
 import { useParams } from 'react-router-dom'
 import DisplaySeats from '../DisplaySeats/DisplaySeats';
 import './seats.css';
-import PaymentButton from '../PaymentButton/PaymentButton';
 
 const Seats = () => {
    const { id } = useParams();
@@ -22,7 +21,6 @@ const Seats = () => {
         <h1>{ seatDetails.name}</h1>
     
         {<DisplaySeats />}
-        {<PaymentButton />}
     </div>
     </>
   )

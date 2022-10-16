@@ -6,5 +6,5 @@
 
 .paymentButton:disabled {
     background: #ff8a9f !important;
-    color: #fff;
+    color: #fff !important;
 }
